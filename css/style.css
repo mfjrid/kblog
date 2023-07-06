@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+#header {
+    background-color: #B2B2B2;
+    color: #ffffff;
+}
+
+#header .nav-item a.nav-link {
+    margin: 16px;
+    margin-bottom: 0;
+    font-weight: 700;
+    border-bottom: 5px solid #E1C6F2;
+}
+
+.btn-kblog {
+    padding: 15px 50px;
+    border-radius: 50px;
+    background-color: #5E6C99;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn-kblog-secondary {
+    padding: 15px 50px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #5E6C99;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
