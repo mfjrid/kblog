@@ -8,8 +8,14 @@ body {
     font-family: 'Lora', serif;
 }
 
-h1 {
+h1,
+h2,
+h3 {
     font-weight: 700;
+}
+
+a {
+    text-decoration: none;
 }
 
 #header {
@@ -35,11 +41,46 @@ h1 {
 }
 
 .btn-kblog-secondary {
-    padding: 15px 50px;
+    padding: 10px 20px;
+    margin-right: 10px;
     border-radius: 50px;
     background-color: #ffffff;
     color: #000000;
     border: 2px solid #5E6C99;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.card {
+    border-radius: 4px;
+    border: 4px solid #B2B2B2;
+}
+
+.card a {
+    color: #000000;
+}
+
+a h3,
+a h4 {
+    line-height: 1.5;
+}
+
+section#girlband {
+    background-color: #B2B2B2;
+}
+
+section#girlband .card {
+    border-radius: 4px;
+    border: 4px solid #ffffff;
+}
+
+.section-heading {
+    margin-top: -20px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #5E6C99;
+    color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
